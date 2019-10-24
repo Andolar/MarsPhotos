@@ -29,10 +29,13 @@
         
         NSString * rover = [marsData objectForKey: currentRover];
         NSString *camera = [marsData objectForKey: selectedCamera];
+        if (camera == nil)
+            camera = @"";
         if (![camera isEqualToString: @""])
             camera = [NSString stringWithFormat: CAMERA, camera];
         
         NSString *url = [NSString stringWithFormat:URL, [rovers objectForKey:rover], [marsData objectForKey: currentSol], camera];
+        NSLog(@"Url: %@", url);
         NSMutableURLRequest *request = [NSMutableURLRequest requestWithURL:[NSURL URLWithString:url] cachePolicy:NSURLRequestReloadIgnoringCacheData timeoutInterval:30];
         request.HTTPMethod = @"GET";
         [request setValue:@"application/xml; charset=utf-8" forHTTPHeaderField:@"Content-Type"];
