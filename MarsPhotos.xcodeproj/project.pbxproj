@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AAAF0C5D235F72D2002E6B95 /* MarsData.mm in Sources */ = {isa = PBXBuildFile; fileRef = AAAF0C5C235F72D2002E6B95 /* MarsData.mm */; };
+		AAAF0C602360F973002E6B95 /* MarsCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAAF0C5F2360F973002E6B95 /* MarsCollectionViewController.m */; };
+		AAAF0C632361F0B0002E6B95 /* MarsPopupView.m in Sources */ = {isa = PBXBuildFile; fileRef = AAAF0C622361F0B0002E6B95 /* MarsPopupView.m */; };
 		AAE80AE1235BDAFD00C775AA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE80AE0235BDAFD00C775AA /* AppDelegate.m */; };
 		AAE80AE4235BDAFD00C775AA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE80AE3235BDAFD00C775AA /* ViewController.m */; };
 		AAE80AE7235BDAFD00C775AA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAE80AE5235BDAFD00C775AA /* Main.storyboard */; };
@@ -15,6 +18,7 @@
 		AAE80AEF235BDAFE00C775AA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE80AEE235BDAFE00C775AA /* main.m */; };
 		AAE80AF9235BDAFE00C775AA /* MarsPhotosTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE80AF8235BDAFE00C775AA /* MarsPhotosTests.m */; };
 		AAE80B04235BDAFE00C775AA /* MarsPhotosUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE80B03235BDAFE00C775AA /* MarsPhotosUITests.m */; };
+		AAE80B1B235BE79E00C775AA /* PhotoLookup.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE80B1A235BE79E00C775AA /* PhotoLookup.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +39,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AAAF0C5B235F72D2002E6B95 /* MarsData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MarsData.h; sourceTree = "<group>"; };
+		AAAF0C5C235F72D2002E6B95 /* MarsData.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = MarsData.mm; sourceTree = "<group>"; };
+		AAAF0C5E2360F973002E6B95 /* MarsCollectionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MarsCollectionViewController.h; sourceTree = "<group>"; };
+		AAAF0C5F2360F973002E6B95 /* MarsCollectionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MarsCollectionViewController.m; sourceTree = "<group>"; };
+		AAAF0C612361F0B0002E6B95 /* MarsPopupView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MarsPopupView.h; sourceTree = "<group>"; };
+		AAAF0C622361F0B0002E6B95 /* MarsPopupView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MarsPopupView.m; sourceTree = "<group>"; };
 		AAE80ADC235BDAFD00C775AA /* MarsPhotos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MarsPhotos.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAE80ADF235BDAFD00C775AA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		AAE80AE0235BDAFD00C775AA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +61,8 @@
 		AAE80AFF235BDAFE00C775AA /* MarsPhotosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MarsPhotosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAE80B03235BDAFE00C775AA /* MarsPhotosUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MarsPhotosUITests.m; sourceTree = "<group>"; };
 		AAE80B05235BDAFE00C775AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AAE80B19235BE79E00C775AA /* PhotoLookup.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PhotoLookup.h; sourceTree = "<group>"; };
+		AAE80B1A235BE79E00C775AA /* PhotoLookup.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhotoLookup.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +122,14 @@
 				AAE80AEA235BDAFE00C775AA /* LaunchScreen.storyboard */,
 				AAE80AED235BDAFE00C775AA /* Info.plist */,
 				AAE80AEE235BDAFE00C775AA /* main.m */,
+				AAE80B19235BE79E00C775AA /* PhotoLookup.h */,
+				AAE80B1A235BE79E00C775AA /* PhotoLookup.m */,
+				AAAF0C5B235F72D2002E6B95 /* MarsData.h */,
+				AAAF0C5C235F72D2002E6B95 /* MarsData.mm */,
+				AAAF0C5E2360F973002E6B95 /* MarsCollectionViewController.h */,
+				AAAF0C5F2360F973002E6B95 /* MarsCollectionViewController.m */,
+				AAAF0C612361F0B0002E6B95 /* MarsPopupView.h */,
+				AAAF0C622361F0B0002E6B95 /* MarsPopupView.m */,
 			);
 			path = MarsPhotos;
 			sourceTree = "<group>";
@@ -262,9 +282,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AAE80B1B235BE79E00C775AA /* PhotoLookup.m in Sources */,
 				AAE80AE4235BDAFD00C775AA /* ViewController.m in Sources */,
+				AAAF0C602360F973002E6B95 /* MarsCollectionViewController.m in Sources */,
 				AAE80AEF235BDAFE00C775AA /* main.m in Sources */,
 				AAE80AE1235BDAFD00C775AA /* AppDelegate.m in Sources */,
+				AAAF0C5D235F72D2002E6B95 /* MarsData.mm in Sources */,
+				AAAF0C632361F0B0002E6B95 /* MarsPopupView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -370,7 +394,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -423,7 +447,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -435,15 +459,20 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D9CD7PKSJ2;
 				INFOPLIST_FILE = MarsPhotos/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.efipps.MarsPhotos;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -451,15 +480,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D9CD7PKSJ2;
 				INFOPLIST_FILE = MarsPhotos/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.efipps.MarsPhotos;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
